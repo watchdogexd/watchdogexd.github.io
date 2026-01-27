@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://watchdogexd.github.io/sitemap.xml
