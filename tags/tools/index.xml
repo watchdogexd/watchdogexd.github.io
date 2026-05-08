@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Nali on sayuke</title>
-    <link>https://watchdogexd.github.io/tags/nali/</link>
-    <description>Recent content in Nali on sayuke</description>
+    <title>Tools on sayuke</title>
+    <link>https://watchdogexd.github.io/tags/tools/</link>
+    <description>Recent content in Tools on sayuke</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Tue, 27 Jan 2026 00:21:34 +0800</lastBuildDate>
-    <atom:link href="https://watchdogexd.github.io/tags/nali/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://watchdogexd.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何在 Linux 机器中配置 TProxy 全局代理</title>
       <link>https://watchdogexd.github.io/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</link>

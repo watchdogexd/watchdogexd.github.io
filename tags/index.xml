@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on kyorisu</title>
+    <title>Tags on sayuke</title>
     <link>https://watchdogexd.github.io/tags/</link>
-    <description>Recent content in Tags on kyorisu</description>
-    <generator>Hugo -- 0.154.5</generator>
+    <description>Recent content in Tags on sayuke</description>
+    <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 14 Mar 2026 00:14:34 +0800</lastBuildDate>
     <atom:link href="https://watchdogexd.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -30,10 +30,24 @@
       <description></description>
     </item>
     <item>
+      <title>MacOS</title>
+      <link>https://watchdogexd.github.io/tags/macos/</link>
+      <pubDate>Tue, 27 Jan 2026 00:21:34 +0800</pubDate>
+      <guid>https://watchdogexd.github.io/tags/macos/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Nali</title>
       <link>https://watchdogexd.github.io/tags/nali/</link>
       <pubDate>Tue, 27 Jan 2026 00:21:34 +0800</pubDate>
       <guid>https://watchdogexd.github.io/tags/nali/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://watchdogexd.github.io/tags/tools/</link>
+      <pubDate>Tue, 27 Jan 2026 00:21:34 +0800</pubDate>
+      <guid>https://watchdogexd.github.io/tags/tools/</guid>
       <description></description>
     </item>
     <item>

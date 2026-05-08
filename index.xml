@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>kyorisu</title>
+    <title>sayuke</title>
     <link>https://watchdogexd.github.io/</link>
-    <description>Recent content on kyorisu</description>
-    <generator>Hugo -- 0.154.5</generator>
+    <description>Recent content on sayuke</description>
+    <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 14 Mar 2026 00:14:34 +0800</lastBuildDate>
     <atom:link href="https://watchdogexd.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -16,6 +16,13 @@
       <description>2026 flag.</description>
     </item>
     <item>
+      <title>如何在 Linux 机器中配置 TProxy 全局代理</title>
+      <link>https://watchdogexd.github.io/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</link>
+      <pubDate>Tue, 27 Jan 2026 00:21:34 +0800</pubDate>
+      <guid>https://watchdogexd.github.io/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</guid>
+      <description>无感知的 Linux 流量接管方案：TProxy 配置指南。</description>
+    </item>
+    <item>
       <title>一次日本之旅</title>
       <link>https://watchdogexd.github.io/post/travel/a-travel-to-japan/</link>
       <pubDate>Tue, 27 Jan 2026 00:21:34 +0800</pubDate>
@@ -23,18 +30,11 @@
       <description>旅行是生活的一部分。</description>
     </item>
     <item>
-      <title>在 macOS 上安装 nali</title>
+      <title>在 macOS 上快速安装与配置 nali</title>
       <link>https://watchdogexd.github.io/post/tech/how-to-install-nali-on-macos/</link>
       <pubDate>Tue, 27 Jan 2026 00:21:34 +0800</pubDate>
       <guid>https://watchdogexd.github.io/post/tech/how-to-install-nali-on-macos/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;推荐使用 &lt;a href=&#34;https://nxtrace.github.io/nali/&#34;&gt;https://nxtrace.github.io/nali/&lt;/a&gt;&lt;br&gt;
-支持 NextTrace 的 LEOMOEAPI&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;nali 作为查询 IP 地理信息和 CDN 服务商的终端工具，非常适合日常使用 ping, traceroute, curl 等终端命令时，减少复制粘贴 IP 或域名到网页查询的碎片操作。&lt;/p&gt;
-&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;https://github.com/zu1k/nali/releases/&lt;/code&gt;&lt;/p&gt;</description>
+      <description>介绍如何在 macOS 上安装 nali，实现终端 IP 信息自动解析。</description>
     </item>
   </channel>
 </rss>
