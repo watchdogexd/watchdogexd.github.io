@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux on sayuke</title>
+    <link>https://watchdogexd.github.io/tags/linux/</link>
+    <description>Recent content in Linux on sayuke</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 09 May 2026 04:21:30 +0800</lastBuildDate>
+    <atom:link href="https://watchdogexd.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在 Linux 机器中配置 TProxy 全局代理</title>
+      <link>https://watchdogexd.github.io/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</link>
+      <pubDate>Sat, 09 May 2026 04:21:30 +0800</pubDate>
+      <guid>https://watchdogexd.github.io/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</guid>
+      <description>无感知的 Linux 流量接管方案：TProxy 配置指南。</description>
+    </item>
+  </channel>
+</rss>

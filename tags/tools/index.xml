@@ -9,13 +9,6 @@
     <lastBuildDate>Tue, 27 Jan 2026 00:21:34 +0800</lastBuildDate>
     <atom:link href="https://watchdogexd.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>如何在 Linux 机器中配置 TProxy 全局代理</title>
-      <link>https://watchdogexd.github.io/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</link>
-      <pubDate>Tue, 27 Jan 2026 00:21:34 +0800</pubDate>
-      <guid>https://watchdogexd.github.io/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</guid>
-      <description>无感知的 Linux 流量接管方案：TProxy 配置指南。</description>
-    </item>
-    <item>
       <title>在 macOS 上快速安装与配置 nali</title>
       <link>https://watchdogexd.github.io/post/tech/how-to-install-nali-on-macos/</link>
       <pubDate>Tue, 27 Jan 2026 00:21:34 +0800</pubDate>
