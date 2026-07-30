@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://watchdogexd.github.io/tags/interface/</loc>
+    <lastmod>2026-05-09T04:21:30+08:00</lastmod>
+  </url><url>
     <loc>https://watchdogexd.github.io/tags/linux/</loc>
     <lastmod>2026-05-09T04:21:30+08:00</lastmod>
   </url><url>
-    <loc>https://watchdogexd.github.io/post/</loc>
+    <loc>https://watchdogexd.github.io/tags/multi/</loc>
     <lastmod>2026-05-09T04:21:30+08:00</lastmod>
   </url><url>
-    <loc>https://watchdogexd.github.io/</loc>
+    <loc>https://watchdogexd.github.io/post/</loc>
     <lastmod>2026-05-09T04:21:30+08:00</lastmod>
   </url><url>
     <loc>https://watchdogexd.github.io/tags/sing-box/</loc>
@@ -18,6 +21,15 @@
     <lastmod>2026-05-09T04:21:30+08:00</lastmod>
   </url><url>
     <loc>https://watchdogexd.github.io/tags/tproxy/</loc>
+    <lastmod>2026-05-09T04:21:30+08:00</lastmod>
+  </url><url>
+    <loc>https://watchdogexd.github.io/tags/udp/</loc>
+    <lastmod>2026-05-09T04:21:30+08:00</lastmod>
+  </url><url>
+    <loc>https://watchdogexd.github.io/</loc>
+    <lastmod>2026-05-09T04:21:30+08:00</lastmod>
+  </url><url>
+    <loc>https://watchdogexd.github.io/post/tech/how-to-fix-udp-forwarding-on-multi-interface-server/</loc>
     <lastmod>2026-05-09T04:21:30+08:00</lastmod>
   </url><url>
     <loc>https://watchdogexd.github.io/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</loc>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Multi on watchdogexd&#39;s blog</title>
+    <link>https://watchdogexd.github.io/tags/multi/</link>
+    <description>Recent content in Multi on watchdogexd&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 09 May 2026 04:21:30 +0800</lastBuildDate>
+    <atom:link href="https://watchdogexd.github.io/tags/multi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>多网卡机器修复应用层 UDP 转发</title>
+      <link>https://watchdogexd.github.io/post/tech/how-to-fix-udp-forwarding-on-multi-interface-server/</link>
+      <pubDate>Sat, 09 May 2026 04:21:30 +0800</pubDate>
+      <guid>https://watchdogexd.github.io/post/tech/how-to-fix-udp-forwarding-on-multi-interface-server/</guid>
+      <description>在多网卡的机器上正确实现 UDP 转发。</description>
+    </item>
+  </channel>
+</rss>
