@@ -1293,8 +1293,8 @@ main .gsc-comment-box-buttons > button.btn-primary[type="submit"]:active {
 }
 
 /* Remove Giscus' nested GitHub border card inside the styled comment surfaces. */
-main .gsc-comment .color-bg-primary.w-full.min-w-0.rounded-md.border.color-border-primary,
-main .gsc-reply .color-bg-primary.w-full.min-w-0.rounded-md.border.color-border-primary {
+main .gsc-comment .color-bg-primary.w-full.min-w-0.rounded-md.border,
+main .gsc-reply .color-bg-primary.w-full.min-w-0.rounded-md.border {
   border: 0 !important;
   border-radius: 0 !important;
   outline: 0 !important;
