@@ -502,7 +502,7 @@ main .gsc-tl-line {
 
 main .gsc-comment:not(.gsc-reply-box) {
   margin: 0 !important;
-  padding: 16px !important;
+  padding: 20px !important;
   border: 0 !important;
   border-radius: 22px !important;
   background: var(--color-canvas-overlay) !important;
@@ -512,24 +512,45 @@ main .gsc-comment:not(.gsc-reply-box) {
 main .gsc-comment-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin: 0 0 10px !important;
+  gap: 12px;
+  margin: 0 0 12px !important;
   padding: 0 !important;
   border: 0 !important;
   background: transparent !important;
 }
 
 main .gsc-comment-content {
+  margin-left: 38px !important;
   padding: 0 !important;
   border: 0 !important;
   border-radius: 0 !important;
   background: transparent !important;
 }
 
+main .gsc-reply-content {
+  margin-left: 38px !important;
+}
+
 main .gsc-comment-header img,
-main .gsc-comment-author-avatar,
+main .gsc-reply-header img,
 main .gsc-reply-box img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  margin-right: 8px;
   border-radius: 50% !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  object-fit: cover;
+}
+
+main .gsc-comment-author-avatar {
+  display: inline-flex !important;
+  align-items: center !important;
+  border-radius: 0 !important;
+  text-decoration: none !important;
 }
 
 main .gsc-comment-author,
@@ -573,7 +594,7 @@ main .gsc-comment-box-preview p {
 
 main .gsc-comment-footer,
 main .gsc-reply-footer {
-  margin: 12px 0 0 !important;
+  margin: 12px 0 0 38px !important;
   padding: 0 !important;
   border: 0 !important;
   background: transparent !important;
@@ -693,7 +714,7 @@ main .gsc-comment-box-preview ol {
 }
 
 main .gsc-replies {
-  margin: 14px 0 0 !important;
+  margin: 14px 0 0 38px !important;
   padding: 12px 0 0 !important;
   border: 0 !important;
   background: transparent !important;
@@ -701,7 +722,7 @@ main .gsc-replies {
 
 main .gsc-reply {
   margin: 8px 0 0 !important;
-  padding: 14px !important;
+  padding: 16px !important;
   border-radius: 18px !important;
   background: var(--color-canvas-default) !important;
 }
