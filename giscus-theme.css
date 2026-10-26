@@ -1220,3 +1220,12 @@ main .gsc-comment-box-buttons > button.btn-primary[type="submit"]:active {
     padding: 14px !important;
   }
 }
+
+/* Remove Giscus' nested GitHub border card inside the styled comment surfaces. */
+main .gsc-comment .color-bg-primary.w-full.min-w-0.rounded-md.border.color-border-primary,
+main .gsc-reply .color-bg-primary.w-full.min-w-0.rounded-md.border.color-border-primary {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
