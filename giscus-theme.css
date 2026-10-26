@@ -1229,3 +1229,79 @@ main .gsc-reply .color-bg-primary.w-full.min-w-0.rounded-md.border.color-border-
   background: transparent !important;
   box-shadow: none !important;
 }
+
+main .gsc-reply-box {
+  margin: 8px 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+main .gsc-reply-box > button {
+  display: inline-flex !important;
+  width: auto !important;
+  min-width: 76px;
+  min-height: 36px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 14px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: var(--color-canvas-subtle) !important;
+  color: var(--color-accent-fg) !important;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: none !important;
+}
+
+main .gsc-reply-box > button:hover {
+  background: var(--md3-selected-container) !important;
+  color: var(--md3-on-selected-container) !important;
+}
+
+main .gsc-comment-box-is-reply {
+  margin: 8px 0 0 !important;
+  padding: 12px !important;
+  border: 0 !important;
+  border-radius: 16px !important;
+  background: var(--color-canvas-subtle) !important;
+  box-shadow: none !important;
+}
+
+main .gsc-comment-box-is-reply .gsc-comment-box-tabs {
+  margin-bottom: 8px !important;
+}
+
+main .gsc-comment-box-is-reply .gsc-comment-box-write {
+  border-radius: 14px !important;
+  background: var(--color-canvas-overlay) !important;
+}
+
+main .gsc-comment-box-is-reply .gsc-comment-box-textarea {
+  height: 96px !important;
+  min-height: 96px !important;
+  max-height: 160px !important;
+  padding: 12px !important;
+  resize: vertical;
+}
+
+main .gsc-comment-box-is-reply .gsc-comment-box-textarea-extras {
+  height: 36px;
+  min-height: 36px;
+}
+
+main .gsc-comment-box-is-reply .gsc-comment-box-preview {
+  height: 132px !important;
+  min-height: 132px !important;
+  max-height: 132px !important;
+  padding: 12px !important;
+  border-radius: 14px !important;
+}
+
+main .gsc-comment-box-is-reply .gsc-comment-box-buttons > button {
+  min-height: 36px !important;
+  padding: 0 14px !important;
+  font-size: 12px;
+}
