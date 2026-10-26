@@ -1378,3 +1378,87 @@ main .gsc-comment-box-is-reply .gsc-comment-box-buttons > button {
   padding: 0 14px !important;
   font-size: 12px;
 }
+
+/* Keep comment rows airy and aligned without the nested GitHub card frame. */
+main .gsc-comments { gap: 8px !important; }
+main .gsc-timeline { gap: 4px !important; }
+
+main .gsc-comment:not(.gsc-reply-box) {
+  padding: 12px 8px !important;
+}
+
+main .gsc-comment .color-bg-primary.w-full.min-w-0.rounded-md.border,
+main .gsc-reply .color-bg-primary.w-full.min-w-0.rounded-md.border,
+main .gsc-comment .color-box-border-info,
+main .gsc-reply .color-box-border-info {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-width: 0 !important;
+  border-color: transparent !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+main .gsc-comment-header {
+  gap: 10px !important;
+  margin-bottom: 6px !important;
+}
+
+main .gsc-comment-header img,
+main .gsc-reply-header img,
+main .gsc-reply-box img {
+  margin: 0 10px 0 0 !important;
+}
+
+main .gsc-comment-content,
+main .gsc-reply-content {
+  margin-left: 46px !important;
+  line-height: 1.65 !important;
+}
+
+main .gsc-comment-footer,
+main .gsc-reply-footer {
+  margin: 8px 0 0 46px !important;
+}
+
+main .gsc-comment-reactions,
+main .gsc-reply-reactions,
+main .gsc-direct-reaction-buttons {
+  gap: 5px !important;
+  margin-top: 8px !important;
+}
+
+main .gsc-replies {
+  margin: 10px 0 0 46px !important;
+}
+
+main .gsc-reply {
+  margin: 8px 0 0 !important;
+  padding: 8px 0 0 !important;
+}
+
+main .gsc-reply-box { margin-top: 8px !important; }
+
+@media (max-width: 480px) {
+  main .gsc-comment:not(.gsc-reply-box) { padding: 10px 4px !important; }
+
+  main .gsc-comment-header img,
+  main .gsc-reply-header img,
+  main .gsc-reply-box img {
+    width: 32px;
+    height: 32px;
+    flex-basis: 32px;
+    margin-right: 8px !important;
+  }
+
+  main .gsc-comment-content,
+  main .gsc-reply-content { margin-left: 40px !important; }
+
+  main .gsc-comment-footer,
+  main .gsc-reply-footer,
+  main .gsc-replies { margin-left: 40px !important; }
+}
