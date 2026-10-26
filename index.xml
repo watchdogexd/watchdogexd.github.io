@@ -1,47 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>watchdogexd&#39;s blog</title>
-    <link>https://watchdogexd.github.io/</link>
-    <description>Recent content on watchdogexd&#39;s blog</description>
-    <generator>Hugo</generator>
-    <language>zh</language>
-    <lastBuildDate>Sat, 09 May 2026 04:21:30 +0800</lastBuildDate>
-    <atom:link href="https://watchdogexd.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>多网卡机器修复应用层 UDP 转发</title>
-      <link>https://watchdogexd.github.io/post/tech/how-to-fix-udp-forwarding-on-multi-interface-server/</link>
-      <pubDate>Sat, 09 May 2026 04:21:30 +0800</pubDate>
-      <guid>https://watchdogexd.github.io/post/tech/how-to-fix-udp-forwarding-on-multi-interface-server/</guid>
-      <description>在多网卡的机器上正确实现 UDP 转发。</description>
-    </item>
+<?xml version="1.0" encoding="UTF-8"?>
+    <rss version="2.0"><channel>
+      <title>watchdogexd&apos;s blog</title><link>https://blog.struggle.work</link>
+      <description>记录技术、生活与路上的风景。</description>
+      <language>zh-cn</language>
     <item>
       <title>如何在 Linux 机器中配置 TProxy 全局代理</title>
-      <link>https://watchdogexd.github.io/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</link>
-      <pubDate>Sat, 09 May 2026 04:21:30 +0800</pubDate>
-      <guid>https://watchdogexd.github.io/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</guid>
+      <link>https://blog.struggle.work/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</link>
+      <guid isPermaLink="true">https://blog.struggle.work/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</guid>
+      <pubDate>Fri, 08 May 2026 20:21:30 GMT</pubDate>
       <description>无感知的 Linux 流量接管方案：TProxy 配置指南。</description>
     </item>
     <item>
+      <title>多网卡机器修复应用层 UDP 转发</title>
+      <link>https://blog.struggle.work/post/tech/how-to-fix-udp-forwarding-on-multi-interface-server/</link>
+      <guid isPermaLink="true">https://blog.struggle.work/post/tech/how-to-fix-udp-forwarding-on-multi-interface-server/</guid>
+      <pubDate>Fri, 08 May 2026 20:21:30 GMT</pubDate>
+      <description>在多网卡的机器上正确实现 UDP 转发。</description>
+    </item>
+    <item>
       <title>2026 年心愿表</title>
-      <link>https://watchdogexd.github.io/post/life/2026-goal/</link>
-      <pubDate>Sat, 14 Mar 2026 00:14:34 +0800</pubDate>
-      <guid>https://watchdogexd.github.io/post/life/2026-goal/</guid>
+      <link>https://blog.struggle.work/post/life/2026-goal/</link>
+      <guid isPermaLink="true">https://blog.struggle.work/post/life/2026-goal/</guid>
+      <pubDate>Fri, 13 Mar 2026 16:14:34 GMT</pubDate>
       <description>2026 flag.</description>
     </item>
     <item>
-      <title>一次日本之旅</title>
-      <link>https://watchdogexd.github.io/post/travel/a-travel-to-japan/</link>
-      <pubDate>Tue, 27 Jan 2026 00:21:34 +0800</pubDate>
-      <guid>https://watchdogexd.github.io/post/travel/a-travel-to-japan/</guid>
-      <description>旅行是生活的一部分。</description>
-    </item>
-    <item>
       <title>在 macOS 上快速安装与配置 nali</title>
-      <link>https://watchdogexd.github.io/post/tech/how-to-install-nali-on-macos/</link>
-      <pubDate>Tue, 27 Jan 2026 00:21:34 +0800</pubDate>
-      <guid>https://watchdogexd.github.io/post/tech/how-to-install-nali-on-macos/</guid>
+      <link>https://blog.struggle.work/post/tech/how-to-install-nali-on-macos/</link>
+      <guid isPermaLink="true">https://blog.struggle.work/post/tech/how-to-install-nali-on-macos/</guid>
+      <pubDate>Mon, 26 Jan 2026 16:21:34 GMT</pubDate>
       <description>介绍如何在 macOS 上安装 nali，实现终端 IP 信息自动解析。</description>
     </item>
-  </channel>
-</rss>
+    <item>
+      <title>一次日本之旅</title>
+      <link>https://blog.struggle.work/post/travel/a-travel-to-japan/</link>
+      <guid isPermaLink="true">https://blog.struggle.work/post/travel/a-travel-to-japan/</guid>
+      <pubDate>Mon, 26 Jan 2026 16:21:34 GMT</pubDate>
+      <description>旅行是生活的一部分。</description>
+    </item>
+    </channel></rss>
