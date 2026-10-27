@@ -1520,7 +1520,7 @@ main .gsc-comment-box-is-reply .gsc-comment-box-textarea-extras {
 /* Place the reply action alongside the message; keep reactions on their own row. */
 main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border {
   display: grid !important;
-  grid-template-columns: 46px minmax(0, 1fr) auto;
+  grid-template-columns: 46px fit-content(calc(100% - 140px)) max-content minmax(0, 1fr);
   align-items: start;
 }
 
@@ -1540,8 +1540,9 @@ main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-re
   grid-column: 3 / 4;
   grid-row: 2;
   align-self: start;
-  justify-self: end;
-  margin: 0 !important;
+  justify-self: start;
+  width: max-content;
+  margin: 0 0 0 8px !important;
 }
 
 main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-footer {
@@ -1556,8 +1557,39 @@ main .gsc-comment .gsc-replies {
   min-width: 0 !important;
 }
 
+main .gsc-reply > .color-bg-primary.w-full.min-w-0.rounded-md.border {
+  display: grid !important;
+  grid-template-columns: 46px minmax(0, 1fr);
+  align-items: start;
+}
+
+main .gsc-reply > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-header,
+main .gsc-reply > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-header {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+main .gsc-reply > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-content,
+main .gsc-reply > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-content {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  min-width: 0;
+  margin-left: 0 !important;
+}
+
+main .gsc-reply > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-footer,
+main .gsc-reply > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-footer {
+  grid-column: 2 / -1;
+  grid-row: 3;
+  margin: 6px 0 0 !important;
+}
+
 @media (max-width: 480px) {
   main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border {
-    grid-template-columns: 40px minmax(0, 1fr) auto;
+    grid-template-columns: 40px fit-content(calc(100% - 124px)) max-content minmax(0, 1fr);
+  }
+
+  main .gsc-reply > .color-bg-primary.w-full.min-w-0.rounded-md.border {
+    grid-template-columns: 40px minmax(0, 1fr);
   }
 }
