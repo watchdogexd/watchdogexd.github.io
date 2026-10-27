@@ -1540,7 +1540,8 @@ main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-co
   margin-left: 0 !important;
 }
 
-main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-box {
+main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-box,
+main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-box-is-reply {
   grid-column: 2 / -1;
   grid-row: 4;
   align-self: start;
