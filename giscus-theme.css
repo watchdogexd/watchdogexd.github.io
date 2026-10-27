@@ -1670,3 +1670,8 @@ main .gsc-replies > .gsc-reply:first-child { margin-top: 0 !important; }
   main .gsc-left-header { width: 100%; min-width: 0; }
   main .gsc-right-header { margin-left: auto !important; }
 }
+
+/* Separate the main composer from the comment list without affecting reply forms. */
+main .gsc-comments > .gsc-comment-box + .gsc-timeline {
+  margin-top: 20px !important;
+}
