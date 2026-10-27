@@ -908,27 +908,27 @@ main {
 
 @media (prefers-color-scheme: light) {
   main {
-    --color-fg-default: #2c2520;
-    --color-fg-muted: #655c54;
-    --color-fg-subtle: #81776e;
-    --color-canvas-default: #fffaf6;
-    --color-canvas-overlay: #fff8f2;
-    --color-canvas-inset: #f1e8df;
-    --color-canvas-subtle: #f7efe8;
-    --color-border-default: #d8cec4;
-    --color-border-muted: #e7ded5;
+    --color-fg-default: #28231e;
+    --color-fg-muted: #62584f;
+    --color-fg-subtle: #7b7066;
+    --color-canvas-default: #fffdf9;
+    --color-canvas-overlay: #fffaf4;
+    --color-canvas-inset: #efe8df;
+    --color-canvas-subtle: #f2ece5;
+    --color-border-default: #d8cec2;
+    --color-border-muted: #e3d9cd;
     --color-accent-fg: #96552c;
     --color-accent-emphasis: #96552c;
     --color-accent-muted: #96552c55;
     --color-accent-subtle: #96552c18;
-    --color-btn-hover-bg: #eee5dc;
-    --color-segmented-control-bg: #f1e8df;
+    --color-btn-hover-bg: #eae2d9;
+    --color-segmented-control-bg: #efe8df;
     --color-btn-primary-text: #fffaf6;
     --color-btn-primary-bg: #96552c;
     --color-btn-primary-border: #96552c;
     --color-btn-primary-hover-bg: #7c4524;
     --color-btn-primary-hover-border: #7c4524;
-    --md3-selected-container: #f5ddc9;
+    --md3-selected-container: #f4ddca;
     --md3-on-selected-container: #321c0f;
   }
 }
@@ -1381,10 +1381,10 @@ main .gsc-comment-box-is-reply .gsc-comment-box-buttons > button {
 
 /* Keep comment rows airy and aligned without the nested GitHub card frame. */
 main .gsc-comments { gap: 8px !important; }
-main .gsc-timeline { gap: 4px !important; }
+main .gsc-timeline { gap: 2px !important; }
 
 main .gsc-comment:not(.gsc-reply-box) {
-  padding: 12px 8px !important;
+  padding: 8px 8px !important;
 }
 
 main .gsc-comment .color-bg-primary.w-full.min-w-0.rounded-md.border,
@@ -1405,7 +1405,8 @@ main .gsc-reply .color-box-border-info {
 
 main .gsc-comment-header {
   gap: 10px !important;
-  margin-bottom: 6px !important;
+  margin-bottom: 4px !important;
+  line-height: 1.35 !important;
 }
 
 main .gsc-comment-header img,
@@ -1417,34 +1418,42 @@ main .gsc-reply-box img {
 main .gsc-comment-content,
 main .gsc-reply-content {
   margin-left: 46px !important;
-  line-height: 1.65 !important;
+  line-height: 1.55 !important;
+}
+
+main .gsc-comment-box-preview { line-height: 1.55 !important; }
+
+main .gsc-comment-content p,
+main .gsc-reply-content p,
+main .gsc-comment-box-preview p {
+  margin: 0.45em 0 !important;
 }
 
 main .gsc-comment-footer,
 main .gsc-reply-footer {
-  margin: 8px 0 0 46px !important;
+  margin: 6px 0 0 46px !important;
 }
 
 main .gsc-comment-reactions,
 main .gsc-reply-reactions,
 main .gsc-direct-reaction-buttons {
   gap: 5px !important;
-  margin-top: 8px !important;
+  margin-top: 6px !important;
 }
 
 main .gsc-replies {
-  margin: 10px 0 0 46px !important;
+  margin: 8px 0 0 46px !important;
 }
 
 main .gsc-reply {
-  margin: 8px 0 0 !important;
-  padding: 8px 0 0 !important;
+  margin: 6px 0 0 !important;
+  padding: 6px 0 0 !important;
 }
 
-main .gsc-reply-box { margin-top: 8px !important; }
+main .gsc-reply-box { margin-top: 6px !important; }
 
 @media (max-width: 480px) {
-  main .gsc-comment:not(.gsc-reply-box) { padding: 10px 4px !important; }
+  main .gsc-comment:not(.gsc-reply-box) { padding: 8px 4px !important; }
 
   main .gsc-comment-header img,
   main .gsc-reply-header img,
