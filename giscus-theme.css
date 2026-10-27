@@ -1523,9 +1523,7 @@ main .gsc-comment-box-is-reply .gsc-comment-box-textarea-extras {
 }
 
 main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border {
-  display: grid !important;
-  grid-template-columns: 46px minmax(0, 1fr);
-  align-items: start;
+  display: block !important;
 }
 
 main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-header {
@@ -1537,24 +1535,20 @@ main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-co
   grid-column: 2 / -1;
   grid-row: 2;
   min-width: 0;
-  margin-left: 0 !important;
+  margin-left: 46px !important;
 }
 
 main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-box,
-main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-box-is-reply {
-  grid-column: 2 / -1;
-  grid-row: 4;
-  align-self: start;
-  justify-self: start;
-  width: 100%;
+main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > form {
+  width: calc(100% - 46px);
   min-width: 0;
-  margin: 4px 0 0 !important;
+  margin: 8px 0 0 46px !important;
 }
 
 main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-footer {
   grid-column: 2 / -1;
   grid-row: 3;
-  margin: 6px 0 0 !important;
+  margin: 6px 0 0 46px !important;
 }
 
 main .gsc-comment .gsc-replies {
@@ -1565,9 +1559,12 @@ main .gsc-comment .gsc-replies {
 
 @media (max-width: 480px) {
   main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border {
-    grid-template-columns: 40px minmax(0, 1fr);
+    display: block !important;
   }
-
+  main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-content { margin-left: 40px !important; }
+  main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-footer { margin-left: 40px !important; }
+  main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-box,
+  main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > form { width: calc(100% - 40px); margin-left: 40px !important; }
 }
 
 main .gsc-reply-content,
