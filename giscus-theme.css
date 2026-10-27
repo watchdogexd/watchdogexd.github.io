@@ -1518,28 +1518,25 @@ main .gsc-comment-box-is-reply .gsc-comment-box-textarea-extras {
 }
 
 /* Place the reply action alongside the message; keep reactions on their own row. */
-main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border,
-main .gsc-reply > .color-bg-primary.w-full.min-w-0.rounded-md.border {
+main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border {
   display: grid !important;
   grid-template-columns: 46px minmax(0, 1fr) auto;
   align-items: start;
 }
 
-main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-header,
-main .gsc-reply > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-header {
+main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-header {
   grid-column: 1 / -1;
   grid-row: 1;
 }
 
-main .gsc-comment .gsc-comment-content,
-main .gsc-reply .gsc-reply-content {
+main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-content {
   grid-column: 2 / 3;
   grid-row: 2;
   min-width: 0;
   margin-left: 0 !important;
 }
 
-main .gsc-comment .gsc-reply-box {
+main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-box {
   grid-column: 3 / 4;
   grid-row: 2;
   align-self: start;
@@ -1547,16 +1544,14 @@ main .gsc-comment .gsc-reply-box {
   margin: 0 !important;
 }
 
-main .gsc-comment .gsc-comment-footer,
-main .gsc-reply .gsc-reply-footer {
+main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-footer {
   grid-column: 2 / -1;
   grid-row: 3;
   margin: 6px 0 0 !important;
 }
 
 @media (max-width: 480px) {
-  main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border,
-  main .gsc-reply > .color-bg-primary.w-full.min-w-0.rounded-md.border {
+  main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border {
     grid-template-columns: 40px minmax(0, 1fr) auto;
   }
 }
