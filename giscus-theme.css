@@ -1524,11 +1524,11 @@ main .gsc-comment-box-is-reply .gsc-comment-box-textarea-extras {
 
 main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border {
   display: block !important;
+  position: relative;
 }
 
 main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-header {
-  grid-column: 1 / -1;
-  grid-row: 1;
+  padding-right: 64px !important;
 }
 
 main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-content {
@@ -1538,7 +1538,14 @@ main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-co
   margin-left: 46px !important;
 }
 
-main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-box,
+main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  margin: 0 !important;
+}
+
 main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > form {
   width: calc(100% - 46px);
   min-width: 0;
@@ -1563,7 +1570,6 @@ main .gsc-comment .gsc-replies {
   }
   main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-content { margin-left: 40px !important; }
   main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-comment-footer { margin-left: 40px !important; }
-  main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-box,
   main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > form { width: calc(100% - 40px); margin-left: 40px !important; }
 }
 
@@ -1620,18 +1626,11 @@ main .gsc-comment-box-is-reply {
 
 main .gsc-reply-box > button {
   min-height: 40px;
-  gap: 6px;
   padding: 0 8px !important;
   background: transparent !important;
   color: var(--color-fg-muted) !important;
   font-size: 14px;
   font-weight: 500;
-}
-
-main .gsc-reply-box > button::before {
-  content: "↶";
-  font-size: 18px;
-  line-height: 1;
 }
 
 main .gsc-reply-box > button:hover,
