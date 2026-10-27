@@ -1655,3 +1655,18 @@ main .gsc-social-reaction-summary-item:hover {
   main .gsc-comment:not(.gsc-reply-box) { padding: 0 !important; }
   main .gsc-replies { margin-left: 24px !important; }
 }
+
+/* Keep related reply content and controls together. */
+main .gsc-reply-footer { margin-top: 4px !important; }
+main .gsc-reply-reactions,
+main .gsc-reply-footer .gsc-direct-reaction-buttons { margin-top: 0 !important; }
+main .gsc-replies > .gsc-reply:first-child { margin-top: 0 !important; }
+
+@media (max-width: 480px) {
+  main .gsc-header {
+    flex-wrap: wrap !important;
+    gap: 8px 16px !important;
+  }
+  main .gsc-left-header { width: 100%; min-width: 0; }
+  main .gsc-right-header { margin-left: auto !important; }
+}
