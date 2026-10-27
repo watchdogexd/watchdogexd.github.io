@@ -1550,6 +1550,12 @@ main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-co
   margin: 6px 0 0 !important;
 }
 
+main .gsc-comment .gsc-replies {
+  grid-column: 1 / -1 !important;
+  grid-row: 4 !important;
+  min-width: 0 !important;
+}
+
 @media (max-width: 480px) {
   main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border {
     grid-template-columns: 40px minmax(0, 1fr) auto;
