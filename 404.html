@@ -5,12 +5,12 @@
           document.documentElement.dataset.theme = savedTheme;
         }
       } catch {}
-    </script><meta name="description" content="页面不存在。"><meta name="author" content="熙屿"><link rel="canonical" href="https://blog.struggle.work/404/"><link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="alternate" type="application/rss+xml" title="watchdogexd's blog RSS" href="/index.xml"><meta property="og:site_name" content="watchdogexd's blog"><meta property="og:locale" content="zh_CN"><meta property="og:type" content="website"><meta property="og:title" content="页面没有找到 — watchdogexd's blog"><meta property="og:description" content="页面不存在。"><meta property="og:url" content="https://blog.struggle.work/404/"><meta name="twitter:card" content="summary"><title>页面没有找到 — watchdogexd&#39;s blog</title><link rel="stylesheet" href="/_astro/BaseLayout.CCfROQyY.css"></head><body><a class="skip-link" href="#main">跳转到正文</a><div class="site-shell"><header class="site-header"><div class="brand"><button id="theme-toggle" class="brand-mark" type="button" aria-label="切换到暗色模式" aria-pressed="false" title="切换到暗色模式"></button><a class="brand-name" href="/" aria-label="watchdogexd's blog 首页">watchdogexd's blog</a></div><nav class="main-nav" aria-label="主导航"><a class="nav-link" href="/">首页</a><a class="nav-link" href="/archive/">归档</a><a class="nav-link" href="/categories/">分类</a><a class="nav-link" href="/tags/">标签</a><a class="nav-link" href="/search/">搜索</a></nav></header><main id="main" tabindex="-1"><section class="not-found"><div><div class="not-found-mark" aria-hidden="true">404</div><h1>页面不存在</h1><a class="button" href="/">回到首页</a></div></section></main><footer class="site-footer"><div class="site-footer-credits"><small>Build with ❤️ by <a href="https://astro.build" rel="noopener noreferrer">Astro</a></small><a class="license-badge" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" aria-label="CC BY-NC-SA 4.0"><span class="cc-mark" aria-hidden="true">CC</span><span>BY-NC-SA 4.0</span></a></div></footer></div><script>
+    </script><meta name="description" content="页面不存在。"><meta name="author" content="熙屿"><link rel="canonical" href="https://blog.struggle.work/404/"><link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="alternate" type="application/rss+xml" title="watchdogexd's blog RSS" href="/index.xml"><meta property="og:site_name" content="watchdogexd's blog"><meta property="og:locale" content="zh_CN"><meta property="og:type" content="website"><meta property="og:title" content="页面没有找到 — watchdogexd's blog"><meta property="og:description" content="页面不存在。"><meta property="og:url" content="https://blog.struggle.work/404/"><meta name="twitter:card" content="summary"><title>页面没有找到 — watchdogexd&#39;s blog</title><link rel="stylesheet" href="/_astro/BaseLayout.Cd-GlB9K.css"></head><body><a class="skip-link" href="#main">跳转到正文</a><div class="site-shell"><header class="site-header"><div class="brand"><button id="theme-toggle" class="brand-mark" type="button" aria-label="切换到暗色模式" aria-pressed="false" title="切换到暗色模式"></button><a class="brand-name" href="/" aria-label="watchdogexd's blog 首页">watchdogexd's blog</a></div><nav class="main-nav" aria-label="主导航"><a class="nav-link" href="/">首页</a><a class="nav-link" href="/archive/">归档</a><a class="nav-link" href="/categories/">分类</a><a class="nav-link" href="/tags/">标签</a><a class="nav-link" href="/search/">搜索</a></nav></header><main id="main" tabindex="-1"><section class="not-found"><div><div class="not-found-mark" aria-hidden="true">404</div><h1>页面不存在</h1><a class="button" href="/">回到首页</a></div></section></main><footer class="site-footer"><div class="site-footer-credits"><small>Build with ❤️ by <a href="https://astro.build" rel="noopener noreferrer">Astro</a></small><a class="license-badge" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" aria-label="CC BY-NC-SA 4.0"><span class="cc-mark" aria-hidden="true">CC</span><span>BY-NC-SA 4.0</span></a></div></footer></div><script>
       (() => {
         const root = document.documentElement;
         const button = document.querySelector("#theme-toggle");
         const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
-        let transitionTimer;
+        let themeChangeSequence = 0;
 
         const currentTheme = () => root.dataset.theme || (systemTheme.matches ? "dark" : "light");
 
@@ -36,16 +36,18 @@
 
         button?.addEventListener("click", () => {
           const nextTheme = currentTheme() === "dark" ? "light" : "dark";
-          if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-            root.classList.add("theme-transition");
-            window.clearTimeout(transitionTimer);
-            transitionTimer = window.setTimeout(() => root.classList.remove("theme-transition"), 280);
-          }
+          root.classList.add("theme-change");
+          const sequence = ++themeChangeSequence;
           root.dataset.theme = nextTheme;
           try {
             localStorage.setItem("watchdogexd-theme", nextTheme);
           } catch {}
           syncThemeControl();
+          window.requestAnimationFrame(() => {
+            window.requestAnimationFrame(() => {
+              if (sequence === themeChangeSequence) root.classList.remove("theme-change");
+            });
+          });
         });
 
         systemTheme.addEventListener("change", () => {

@@ -1479,34 +1479,27 @@ main .gsc-comment-box-is-reply .gsc-comment-box-write {
   border-radius: 20px !important;
   background: var(--color-canvas-subtle) !important;
   box-shadow: none !important;
-  transition: background-color var(--motion-duration-short) var(--motion-easing),
-    border-color var(--motion-duration-short) var(--motion-easing),
+  transition: border-color var(--motion-duration-short) var(--motion-easing),
     box-shadow var(--motion-duration-short) var(--motion-easing);
 }
 
 main .gsc-comment-box-write:hover:not(:focus-within),
 main .gsc-comment-box-is-reply .gsc-comment-box-write:hover:not(:focus-within) {
   border-color: var(--color-border-default) !important;
-  background: var(--color-canvas-inset) !important;
 }
 
 main .gsc-comment-box-write:focus-within,
 main .gsc-comment-box-is-reply .gsc-comment-box-write:focus-within {
   border-color: var(--color-accent-emphasis) !important;
   outline: 0 !important;
-  background: var(--color-canvas-overlay) !important;
-  box-shadow: 0 0 0 3px var(--color-accent-subtle) !important;
+  background: var(--color-canvas-subtle) !important;
+  box-shadow: 0 0 0 2px var(--color-accent-subtle) !important;
 }
 
 main .gsc-comment-box-textarea-extras {
   border-top: 1px solid var(--color-border-muted) !important;
   border-radius: 0 0 19px 19px !important;
   background: var(--color-canvas-inset) !important;
-  transition: background-color var(--motion-duration-short) var(--motion-easing);
-}
-
-main .gsc-comment-box-write:focus-within .gsc-comment-box-textarea-extras {
-  background: var(--color-canvas-overlay) !important;
 }
 
 main .gsc-comment-box-preview {
