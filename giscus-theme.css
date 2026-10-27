@@ -1541,7 +1541,7 @@ main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-co
 main .gsc-comment > .color-bg-primary.w-full.min-w-0.rounded-md.border > .gsc-reply-box {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 4px;
   width: auto;
   margin: 0 !important;
 }
