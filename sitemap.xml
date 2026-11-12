@@ -5,6 +5,7 @@
   <url><loc>https://blog.struggle.work/search/</loc></url>
   <url><loc>https://blog.struggle.work/categories/</loc></url>
   <url><loc>https://blog.struggle.work/tags/</loc></url>
+  <url><loc>https://blog.struggle.work/post/tech/how-to-detect-pcdn-correctly/</loc></url>
   <url><loc>https://blog.struggle.work/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</loc></url>
   <url><loc>https://blog.struggle.work/post/tech/how-to-fix-udp-forwarding-on-multi-interface-server/</loc></url>
   <url><loc>https://blog.struggle.work/post/life/2026-goal/</loc></url>
@@ -13,6 +14,7 @@
   <url><loc>https://blog.struggle.work/categories/life/</loc></url>
   <url><loc>https://blog.struggle.work/categories/tech/</loc></url>
   <url><loc>https://blog.struggle.work/categories/travel/</loc></url>
+  <url><loc>https://blog.struggle.work/tags/detect/</loc></url>
   <url><loc>https://blog.struggle.work/tags/goal/</loc></url>
   <url><loc>https://blog.struggle.work/tags/interface/</loc></url>
   <url><loc>https://blog.struggle.work/tags/japan/</loc></url>
@@ -21,6 +23,8 @@
   <url><loc>https://blog.struggle.work/tags/macos/</loc></url>
   <url><loc>https://blog.struggle.work/tags/multi/</loc></url>
   <url><loc>https://blog.struggle.work/tags/nali/</loc></url>
+  <url><loc>https://blog.struggle.work/tags/network/</loc></url>
+  <url><loc>https://blog.struggle.work/tags/pcdn/</loc></url>
   <url><loc>https://blog.struggle.work/tags/sing-box/</loc></url>
   <url><loc>https://blog.struggle.work/tags/tools/</loc></url>
   <url><loc>https://blog.struggle.work/tags/tproxy/</loc></url>

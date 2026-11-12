@@ -4,6 +4,13 @@
       <description>记录技术、生活与路上的风景。</description>
       <language>zh-cn</language>
     <item>
+      <title>如何正确拦截国产软件的 PCDN？</title>
+      <link>https://blog.struggle.work/post/tech/how-to-detect-pcdn-correctly/</link>
+      <guid isPermaLink="true">https://blog.struggle.work/post/tech/how-to-detect-pcdn-correctly/</guid>
+      <pubDate>Thu, 12 Nov 2026 16:30:00 GMT</pubDate>
+      <description></description>
+    </item>
+    <item>
       <title>如何在 Linux 机器中配置 TProxy 全局代理</title>
       <link>https://blog.struggle.work/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</link>
       <guid isPermaLink="true">https://blog.struggle.work/post/tech/how-to-configure-tproxy-with-singbox-in-linux/</guid>
